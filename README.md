@@ -9,6 +9,7 @@
 ![image](https://github.com/user-attachments/assets/9c1722ce-c482-4b23-9ce1-9012a8f453d1)
 
 
-3. Apos isso deve ser executado:
-   cd-
+3. Toda vez que eu for abrir meu projeto em react eu faço esse comando:
+      ![image](https://github.com/user-attachments/assets/e16ac505-0cf2-475c-af82-622a577e7a7e)
+
 
