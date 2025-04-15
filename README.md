@@ -8,3 +8,7 @@
 
 ![image](https://github.com/user-attachments/assets/9c1722ce-c482-4b23-9ce1-9012a8f453d1)
 
+
+3. Apos isso deve ser executado:
+   cd-
+
