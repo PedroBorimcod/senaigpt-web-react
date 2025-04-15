@@ -13,3 +13,6 @@
       ![image](https://github.com/user-attachments/assets/e16ac505-0cf2-475c-af82-622a577e7a7e)
 
 
+   4. O app.jsx serve para fazer linkagens
+
+
