@@ -6,4 +6,5 @@
 2. Executar o node.js
 
 
-![Captura de tela 2025-04-14 213238](https://github.com/user-attachments/assets/a3856b55-435c-478a-9028-d15a6eabf9ec)
+![image](https://github.com/user-attachments/assets/9c1722ce-c482-4b23-9ce1-9012a8f453d1)
+
