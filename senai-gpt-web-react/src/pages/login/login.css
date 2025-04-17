@@ -57,7 +57,7 @@ h1{
     height: 60px;
 }
 .robo-image{
-    background-image: url(../assets/imgs/Rectangle\ 1.png);
+    background-image: url("../../assets/imgs/Rectangle 1.png");
         /* "Backgroud-img serve para colocar imagem dentro do css" */
     background-size: cover;
         /* "Backgroud-size" Serve para distribuir a imagem dentro do espaço da minha div */
