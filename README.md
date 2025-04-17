@@ -33,6 +33,7 @@
 
         ![image](https://github.com/user-attachments/assets/0032204e-d5ce-46ac-9edf-eefb99e5a3a4)
 
+8. o codigo fetch serve para enviar dados para back-end
 
 
 
