@@ -17,7 +17,7 @@ function Login() {
       //serve para conectar com o back end
 
       headers: {
-        "Content-Type": "application/jason"
+        "Content-Type": "application/json"
         //para definir meus cabeçalhos da minha requisiçao
       },
       method: "POST", //metodo que envia dados
@@ -30,7 +30,10 @@ function Login() {
 
 
      });
-   console.log(response)
+   console.log(response);
+
+
+   window.location.href = "/chat";
   }
 
 
