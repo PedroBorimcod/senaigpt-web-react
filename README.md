@@ -14,5 +14,30 @@
 
 
    4. O app.jsx serve para fazer linkagens
+  
+5. Para importar uma imagem em react use
+            ![image](https://github.com/user-attachments/assets/e486af23-15b2-4339-aa78-c236311287d7)
+
+
+   6. E para aparecer a imagem coloque esse codigo:
+          ![image](https://github.com/user-attachments/assets/5eccae7e-affe-482f-b3c6-154b52af4c4f)
+
+
+
+
+      7.esse comando serve para salvar algum valor
+
+            
+
+      ![image](https://github.com/user-attachments/assets/a2081b6f-dcf1-4fd2-850a-6c80188354ce)
+
+        ![image](https://github.com/user-attachments/assets/0032204e-d5ce-46ac-9edf-eefb99e5a3a4)
+
+8. o codigo fetch serve para enviar dados para back-end
+
+
+
+
+   
 
 

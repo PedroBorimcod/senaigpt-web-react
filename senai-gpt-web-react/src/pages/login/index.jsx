@@ -32,7 +32,10 @@ function Login() {
      });
    console.log(response);
 
-
+     if (response.ok == true){
+      let json = await response.json ();
+      localStorage.setItem("meuToken", json.accessToken);
+     }
    window.location.href = "/chat";
   }
 
