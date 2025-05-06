@@ -12,6 +12,8 @@ function Chat() {
     const [chats, setChats] = useState([]);
     const [chatSelecionado, setChatSelecionado] = useState(null);
     const [userMessage, setUserMessage] = useState("");
+    
+    const [isLeftPanelOpen, setIsLeftPanelOpen] = useState(false);
 
     useEffect(() => {
 
@@ -30,7 +32,7 @@ function Chat() {
     }, [userMessage]);
 
     const getChats = async () => {
-        let response = await fetch("https://senai-gpt-api.up.railway.app/chats", {
+        let response = await fetch("https://senai-gpt-api.up.railway.app/users", {
             headers: {
                 "Authorization": "Bearer " + localStorage.getItem("meuToken")
             }
@@ -210,7 +212,14 @@ function Chat() {
     return (
         <>
             <div className="container">
-                <header className="left-panel">
+                {                }
+            <button
+            className="btn-toggle-panel"
+            onClick={() => setIsLeftPanelOpen(true)}
+            >
+                ☰
+            </button>
+                <header className={`left-panel ${isLeftPanelOpen == true ? "open" : ""}`}>
                     <div className="top">
                         <button className="btn-new-chat" onClick={() => novoChat()}>+ New chat</button>
                         {chats.map(chat => (
