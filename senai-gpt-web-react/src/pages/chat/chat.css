@@ -27,7 +27,7 @@
 .central-panel .dicas-container {
 
     display: flex;
-    max-width: 50vw;
+    max-width: 90vw;
     margin-top: 20px;
 
     cursor: pointer;
@@ -265,5 +265,34 @@
 
     
 }
+.chat-logo img{
+    width: 80vw;
+}
+.input-container-1 input {
 
+    padding: 20px;
+    border: none;
+    background-color: #F7F9FB;
+    border-radius: 16px;
+    width: 60vw;
+
+}
+
+.input-container-1 {
+
+    margin-top: auto;
+    margin-bottom: 40px;
+
+    display: flex;
+    align-items: center;
+
+    border: none;
+    background-color: #F7F9FB;
+
+    border-radius: 16px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
 }

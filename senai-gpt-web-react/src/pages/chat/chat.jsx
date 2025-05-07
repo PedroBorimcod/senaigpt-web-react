@@ -60,8 +60,10 @@ function Chat() {
         window.location.href = "/login";
     }
 
+
     const clickChat = (chat) => {
         setChatSelecionado(chat);
+        setIsLeftPanelOpen(false);
     }
 
     const chatGPT = async (message) => {
@@ -215,7 +217,7 @@ function Chat() {
                 {                }
             <button
             className="btn-toggle-panel"
-            onClick={() => setIsLeftPanelOpen(true)}
+            onClick={() => setIsLeftPanelOpen(!isLeftPanelOpen)}
             >
                 ☰
             </button>
